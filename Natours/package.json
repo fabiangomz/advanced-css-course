@@ -1,0 +1,32 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours project for the advanced css course",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiangomz/advanced-css-course.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass"
+  ],
+  "author": "Fabian Gomez Campo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiangomz/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/fabiangomz/advanced-css-course#readme",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "live-server": "^1.2.2"
+  }
+}
